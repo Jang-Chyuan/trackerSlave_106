@@ -1,0 +1,30 @@
+﻿[
+    {
+        "path":  "src/tasks/Gps2LoraTask.cpp",
+        "sha256":  "15F3A918BF8A0A8087D5AB9F830D799FA0534E1A235C9A995B60108E7AC5D16E"
+    },
+    {
+        "path":  "src/Lora/LoRaPacket.h",
+        "sha256":  "B83DE4118F17D7819E462A99D40ED4E2334FDD988A0A07EAEAAF7FB02895B4FA"
+    },
+    {
+        "path":  "src/IMU/ActivityTask.cpp",
+        "sha256":  "F12A6CDAFD568840FE78FBA6878D0268C193172C1B5B78BD48BE98459A043BA8"
+    },
+    {
+        "path":  "src/IMU/ActivityFeature.cpp",
+        "sha256":  "A7B6F38B7F363689AC62106B7353F13084416816A0EB4A7BC14E69A24E8EBF48"
+    },
+    {
+        "path":  "src/IMU/ActivityFeature.h",
+        "sha256":  "776466BB53A9F797323638A1BFBE247B2055C40AD1BEA3E6524885972B14C11A"
+    },
+    {
+        "path":  "src/IMU/ActivityScore.cpp",
+        "sha256":  "F7F3EE4589E22ECA4239E13ECADE676F407608B96FEE97551548A88F58D4422C"
+    },
+    {
+        "path":  "src/IMU/ActivityScore.h",
+        "sha256":  "B1303FF49B3E43A8B48E4E7E7EF08A4DB93BB20E9AE6416D2E387DBE47DCF32D"
+    }
+]
