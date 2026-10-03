@@ -54,7 +54,7 @@ GPIO36 是 PPS，不能沿用舊板的 IMU 電源控制。GPIO3 同時供應 GNS
 ## 保留的協定與功能
 
 - `Gps2LoraTask.cpp`、`TdmaProtocol.h`、`LoRaPacket.h` 及活動量演算法沿用原始檔案。
-- Slave ID **106**、Master ID **9**；Slave 106 沿用原 Slave 6 的 3000 ms TDMA slot。
+- Slave ID **108**、Master ID **9**；Slave 108 使用 frame 開始後 8000 ms 的獨立 TDMA slot。
 - 無線參數維持 923 MHz、BW125、SF12、CR4/5、SyncWord 0x12、CRC。
 - Tracker V2 官方增益表對 20 dBm 目標給出 SX1262 **6 dBm**；這是名義設定，實際 RF 輸出尚待儀器量測。
 - 未啟用／未接 BMI270 時，活動資料保持無效，不產生虛構分數。

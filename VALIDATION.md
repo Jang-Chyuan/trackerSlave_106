@@ -9,7 +9,7 @@
   `tracker_v2_gps`、`tracker_v2_lora`、`tracker_v2_tft`、`tracker_v2_full` 均為 SUCCESS。
 - 完整功能環境 RAM 使用 48,208 bytes（14.7%）；程式 Flash 使用 886,845 bytes（26.5% 的 app partition）。
 - `preserved-source-hashes.json` 記錄仍與原專案 SHA-256 一致的封包及活動量來源；身份設定與 TDMA 主機註解／ID 映射已依需求修改。
-- Slave ID=106、Master ID=9；Slave 106 沿用原 Slave 6 的 3000 ms TDMA slot。
+- Slave ID=108、Master ID=9；Slave 108 使用 frame 開始後 8000 ms 的獨立 TDMA slot。
 - 電池換算 native 測試已嘗試；本機缺少 `gcc`／`g++`，未執行成功，詳見 `validation/test-native.log`。
 
 ## 實機狀態

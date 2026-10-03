@@ -23,7 +23,7 @@ static_assert(sizeof(SyncPayload) == 13, "SYNC wire size");
 
 constexpr uint32_t tdmaSlotMs(uint8_t id)
 {
-    return id == 4 ? 0 : id == 6 || id == 106 ? 3000 : id == 8 ? 6000 : UINT32_MAX;
+    return id == 4 ? 0 : id == 6 ? 3000 : id == 8 ? 6000 : id == 108 ? 8000 : UINT32_MAX;
 }
 
 inline int32_t tdmaDelta(uint32_t now, uint32_t target)
